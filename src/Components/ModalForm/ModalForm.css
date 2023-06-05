@@ -1,0 +1,41 @@
+.closeModal{
+    position: absolute;
+    width:30px;
+    right :20px;
+    font-weight: 900;
+    font-size: medium;
+    top :20px;
+    background-color: #030f3d;
+    color: #ffffff;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    width :100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: gold;
+    height: 100vh;
+    
+}
+.coinName{
+    
+    font-size: 50px ;
+    font-weight: bold;
+    margin:30px;
+
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+

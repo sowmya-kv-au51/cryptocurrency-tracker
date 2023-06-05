@@ -1,0 +1,40 @@
+.tableStyle{
+    background-color:gold !important;
+    font-weight: 900 !important;
+    font-size: 20px !important;
+    
+}
+.main-coin {
+    cursor: pointer;
+    color:rgb(223, 193, 23) !important;
+    font-weight: bold;
+    font-size: 20px !important;
+   display: flex !important;
+   align-items: center;
+    flex-direction: row;
+}
+.coin{
+    color:rgb(223, 193, 23) !important;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+.coin1{
+    color:rgb(164, 47, 47);
+    font-size: 10px ;
+    
+
+}
+
+.rank{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.tableContent{
+
+    background-color: black;
+    
+
+}
