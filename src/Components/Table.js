@@ -73,8 +73,8 @@ export default function BasicTable() {
                                             <div style={{ marginRight: "10px" }}>{singleCrypto.symbol}</div>
                                             <div className='coin1'> {singleCrypto.name}</div>
                                         </TableCell>
-                                        <TableCell className='coin' align="center">{singleCrypto.current_price}</TableCell>
-                                        <TableCell className='coin' align="center">{singleCrypto.high_24h}</TableCell>
+                                        <TableCell className='coin' align="center">₹&nbsp;{singleCrypto.current_price}</TableCell>
+                                        <TableCell className='coin' align="center">{singleCrypto.price_change_percentage_24h.toFixed(2)}&nbsp;%</TableCell>
                                         <TableCell className='coin' align="center">{singleCrypto.market_cap}</TableCell>
                                     </TableRow>
                                 ))}

@@ -16,12 +16,13 @@ function ModalForm(props) {
                     <button className='closeModal' onClick={() => props.setModalIsOpenToFalse()}>x</button>
                     <div className='coinName'> {props.crypto?.name}</div>
                     <div className='content'> 
-
-                        <img src={props.crypto?.image} className='img' />
+                       <img src={props.crypto?.image} className='img'/>
                         <div className='rank'> Rank : {props.crypto?.market_cap_rank}</div>
-                        <div className='currentPrice' >Current Price: {props.crypto?.current_price}</div>
-                        <div className='marketCap'>Market Cap :  {props.crypto?.market_cap}</div>
-                        <div>Price Change Percentage Of 24h In Currency :  {props.crypto?.price_change_percentage_24h_in_currency} % </div>
+                        <div className='points'>
+                            <div className='currentPrice' ><span style={{color:"white"}}>Current Price :  </span> {props.crypto?.current_price}</div>
+                            <div className='marketCap'><span style={{color:"white"}}>Market Cap :  </span> {props.crypto?.market_cap}</div>
+                            <div><span style={{color:"white"}}>Price Change Percentage Of 24h In Currency :  </span>  {Number(props.crypto?.price_change_percentage_24h_in_currency).toFixed(2)} % </div>
+                        </div>
                     </div>
                 </div>
             </Modal>

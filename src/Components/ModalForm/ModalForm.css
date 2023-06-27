@@ -13,29 +13,50 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .modal{
     width :100%;
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     background-color: black;
     color: gold;
     height: 100vh;
     
 }
 .coinName{
-    
+    display: flex;
+    justify-content: center;
     font-size: 50px ;
     font-weight: bold;
     margin:30px;
+    
 
 }
 
 .img {
-    width: 200px;
-    height: 200px;
+    position: absolute;
+    left :1px;
+    align-items: center;
 }
+.Modal1{
+    width:100%;
+}
+.rank{
+    position: absolute;
+    left: 65px;
+    top :180px;
+    align-items: center;
+}
+.points{
+    font-size: 20px;
+    border :1px solid #176B87;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
 
+
+}
